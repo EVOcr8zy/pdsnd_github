@@ -234,6 +234,7 @@ def raw_data(df):
 
     display_data = input('would you like to inspect the raw data? "Yes" or "No":\n').lower()
 
+    # Makes the program display 5 lines at a time
     if display_data == 'yes':
         while end_loc <= df.shape[0] - 1:
             print(df.iloc[start_loc:end_loc,:])
