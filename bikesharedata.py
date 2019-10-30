@@ -240,7 +240,7 @@ def raw_data(df):
             start_loc += 5
             end_loc += 5
 
-            end_data = input('Would you like to see more? continue = "ENTER" Exit = "No" :\n').lower()
+            end_data = input('Would you like to see more data? continue = "ENTER" Exit = "No" :\n').lower()
             if end_data == 'no':
                 break
 
