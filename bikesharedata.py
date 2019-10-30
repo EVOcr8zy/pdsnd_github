@@ -74,7 +74,7 @@ def load_data(city, month, day):
 
     # applies the city input to read the cvs file associated.
     print('\nLoading the data... .. .. ..\n')
-    time.sleep(2)
+    time.sleep(1)
     df = pd.read_csv(CITY_DATA[city])
 
     # extracting from Start Time
@@ -100,7 +100,7 @@ def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
     print('\n\nCalculating The Most Frequent Times of Travel... .. .. ..\n\n')
-    time.sleep(2)
+    time.sleep(1)
     start_time = time.time()
 
     # display the most common month
@@ -128,7 +128,7 @@ def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
     print('\n\nCalculating The Most Popular Stations and Trip... .. .. ..\n\n')
-    time.sleep(2)
+    time.sleep(1)
     start_time = time.time()
 
     # display most commonly used start station
@@ -155,7 +155,7 @@ def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
 
     print('\n\ncalculating statistics on trip duration... .. .. ..\n\n')
-    time.sleep(2)
+    time.sleep(1)
     print('-'*40)
     start_time = time.time()
 
@@ -178,7 +178,7 @@ def user_stats(df):
     """Displays statistics on bikeshare users."""
 
     print('\n\nCalculating User Stats... .. .. ..\n\n')
-    time.sleep(2)
+    time.sleep(1)
     start_time = time.time()
 
     # Display counts of user types
