@@ -21,7 +21,8 @@ def get_filters():
     month_choices = ['January', 'February', 'March', 'April', 'May', 'June', 'All']
     day_choices = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'All']
 
-    print('Hello! Let\'s explore some US bikeshare data!')
+    # Welcome message
+    print('Hello! ready explore some US bikeshare data?')
 
     while True:
         # retrieves the city to load.
